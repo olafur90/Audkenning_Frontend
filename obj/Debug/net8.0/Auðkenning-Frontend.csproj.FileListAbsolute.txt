@@ -27,3 +27,4 @@ C:\Users\olafu\Documents\Matholl\Auðkenning-Frontend\obj\Debug\net8.0\refint\Au
 C:\Users\olafu\Documents\Matholl\Auðkenning-Frontend\obj\Debug\net8.0\Auðkenning-Frontend.pdb
 C:\Users\olafu\Documents\Matholl\Auðkenning-Frontend\obj\Debug\net8.0\Auðkenning-Frontend.genruntimeconfig.cache
 C:\Users\olafu\Documents\Matholl\Auðkenning-Frontend\obj\Debug\net8.0\ref\Auðkenning-Frontend.dll
+C:\Users\olafu\Documents\Matholl\Auðkenning-Frontend\obj\Debug\net8.0\Auðkenning-Frontend.sourcelink.json

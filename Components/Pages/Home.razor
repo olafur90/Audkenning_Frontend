@@ -11,7 +11,7 @@ Welcome to your new app.
 <EditForm FormName="PhoneOrSocSecNumberForm" Model="this" OnSubmit="FormSubmitted">
     <div class="form-group">
         <label for"socialSecurityNumber">Social Security Number:</label>
-        <InputText @bind-Value="Soc" />
+        <InputText @bind-Value="Soc" class="form-control" id="socialSecurityNumber" />
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 
@@ -22,6 +22,14 @@ Welcome to your new app.
         </div>
     }
 
+    @if (Loading)
+    {
+        <div class="alert alert-success" role="alert">
+            Loading...
+        </div>
+    }
+
+
 </EditForm>
 
 @code {
@@ -29,21 +37,35 @@ Welcome to your new app.
     public string? Soc { get; set; }
 
     private bool Authenticated { get; set; }
+    private bool Loading { get; set; }
 
-    async Task FormSubmitted(EditContext editContext)
+    private async Task FormSubmitted(EditContext editContext)
     {
-        var request = new HttpRequestMessage(HttpMethod.Post,
-            $"http://localhost:5177/Home/AuthenticateUser?socialSecurityNumber={Soc}");
-        request.Headers.Add("Accept", "application/json");
-        request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
-
-        var client = ClientFactory.CreateClient();
-
-        var response = await client.SendAsync(request);
-
-        Authenticated = response.IsSuccessStatusCode;
-        Console.WriteLine(Authenticated);
-
+        Loading = true;
         StateHasChanged();
+        await Task.Delay(500);
+        await PollUser();
+        Loading = false;
+        StateHasChanged();
+    }
+
+    async Task PollUser()
+    {
+        try
+        {
+            var request = new HttpRequestMessage(HttpMethod.Post,
+                $"http://localhost:5177/Home/AuthenticateUser?userIdentifier={Soc}");
+            request.Headers.Add("Accept", "application/json");
+            request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
+
+            var client = ClientFactory.CreateClient();
+            var response = await client.SendAsync(request);
+
+            Authenticated = response.IsSuccessStatusCode;
+        }
+        catch(Exception e)
+        {
+            Console.WriteLine(e.ToString());
+        }
     }
 }

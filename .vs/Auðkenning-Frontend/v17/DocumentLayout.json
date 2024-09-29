@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|c:\\users\\olafu\\documents\\matholl\\au\u00F0kenning-frontend\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|solutionrelative:components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|c:\\users\\olafu\\documents\\matholl\\au\u00F0kenning-frontend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|c:\\users\\olafu\\documents\\matholl\\au\u00F0kenning-frontend\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|c:\\users\\olafu\\documents\\matholl\\au\u00F0kenning-frontend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|c:\\users\\olafu\\documents\\matholl\\au\u00F0kenning-frontend\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{573EAE07-81F5-4875-B4E7-ED49F1277935}|Au\u00F0kenning-Frontend.csproj|solutionrelative:components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\olafu\\Documents\\Matholl\\Au\u00F0kenning-Frontend\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Counter.razor",
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Components\\Pages\\Counter.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T01:26:26.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T01:26:26.457Z"
             },
             {
               "$type": "Document",
@@ -74,7 +73,7 @@
               "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
               "ToolTip": "C:\\Users\\olafu\\Documents\\Matholl\\Au\u00F0kenning-Frontend\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-29T01:24:36.193Z",
               "EditorCaption": ""
@@ -107,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\olafu\\Documents\\Matholl\\Au\u00F0kenning-Frontend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
