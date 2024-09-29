@@ -1,0 +1,49 @@
+﻿@page "/"
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@inject IHttpClientFactory ClientFactory
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+<EditForm FormName="PhoneOrSocSecNumberForm" Model="this" OnSubmit="FormSubmitted">
+    <div class="form-group">
+        <label for"socialSecurityNumber">Social Security Number:</label>
+        <InputText @bind-Value="Soc" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+    @if (Authenticated)
+    {
+        <div class="alert alert-success" role="alert">
+            You are authenticated
+        </div>
+    }
+
+</EditForm>
+
+@code {
+    [SupplyParameterFromForm]
+    public string? Soc { get; set; }
+
+    private bool Authenticated { get; set; }
+
+    async Task FormSubmitted(EditContext editContext)
+    {
+        var request = new HttpRequestMessage(HttpMethod.Post,
+            $"http://localhost:5177/Home/AuthenticateUser?socialSecurityNumber={Soc}");
+        request.Headers.Add("Accept", "application/json");
+        request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
+
+        var client = ClientFactory.CreateClient();
+
+        var response = await client.SendAsync(request);
+
+        Authenticated = response.IsSuccessStatusCode;
+        Console.WriteLine(Authenticated);
+
+        StateHasChanged();
+    }
+}

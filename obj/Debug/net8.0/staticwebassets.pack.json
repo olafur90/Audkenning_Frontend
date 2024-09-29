@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Auðkenning-Frontend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Auðkenning-Frontend.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Auðkenning-Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Auðkenning-Frontend.props",
+      "PackagePath": "build\\Auðkenning-Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Auðkenning-Frontend.props",
+      "PackagePath": "buildMultiTargeting\\Auðkenning-Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Auðkenning-Frontend.props",
+      "PackagePath": "buildTransitive\\Auðkenning-Frontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
