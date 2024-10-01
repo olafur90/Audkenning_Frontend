@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fc8ueioJTtf+MSG3/Rbw3CJygLkkfV1ehagFe4V+BSw=",
+  "Hash": "m6/lZvOCA9CPXH52A3yroZf0NYpr1LKz1Z23hVQ+oFQ=",
   "Source": "Auðkenning-Frontend",
   "BasePath": "_content/Auðkenning-Frontend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Auðkenning-Frontend\\wwwroot",
       "Source": "Auðkenning-Frontend",
-      "ContentRoot": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\wwwroot\\",
       "BasePath": "_content/Auðkenning-Frontend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Auðkenning-Frontend.styles.css",
+      "Identity": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Auðkenning-Frontend.styles.css",
       "SourceId": "Auðkenning-Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Auðkenning-Frontend",
       "RelativePath": "Auðkenning-Frontend.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Auðkenning-Frontend.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Auðkenning-Frontend.styles.css"
     },
     {
-      "Identity": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Auðkenning-Frontend.bundle.scp.css",
+      "Identity": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Auðkenning-Frontend.bundle.scp.css",
       "SourceId": "Auðkenning-Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Auðkenning-Frontend",
       "RelativePath": "Auðkenning-Frontend.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Auðkenning-Frontend.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Auðkenning-Frontend.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\wwwroot\\app.css",
       "SourceId": "Auðkenning-Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\wwwroot\\",
       "BasePath": "_content/Auðkenning-Frontend",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Auðkenning-Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\wwwroot\\",
       "BasePath": "_content/Auðkenning-Frontend",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Auðkenning-Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\wwwroot\\",
       "BasePath": "_content/Auðkenning-Frontend",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\wwwroot\\favicon.png",
       "SourceId": "Auðkenning-Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\olafu\\Documents\\Matholl\\Auðkenning-Frontend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Notandi\\OneDrive\\Audkenning_Frontend\\wwwroot\\",
       "BasePath": "_content/Auðkenning-Frontend",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

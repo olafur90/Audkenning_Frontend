@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Auðkenning-Frontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76d1a13aad142adefbb6a3a9cf028d618564cfc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cff9b7deff00653cd8b2f5a022041c23c173a3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Auðkenning-Frontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Auðkenning-Frontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

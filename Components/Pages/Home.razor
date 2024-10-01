@@ -8,7 +8,7 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
-<EditForm FormName="PhoneOrSocSecNumberForm" Model="this" OnSubmit="FormSubmitted">
+<EditForm FormName="testForm" Model="this" OnSubmit="FormSubmitted">
     <div class="form-group">
         <label for"socialSecurityNumber">Social Security Number:</label>
         <InputText @bind-Value="Soc" class="form-control" id="socialSecurityNumber" />
@@ -28,9 +28,18 @@ Welcome to your new app.
             Loading...
         </div>
     }
-
-
 </EditForm>
+<table class="table">
+    @if (recentAuthentications != null)
+    {
+        @foreach (var item in recentAuthentications)
+        {
+            <tr>
+                <td>@item</td>
+            </tr>
+        }
+    }
+</table>
 
 @code {
     [SupplyParameterFromForm]
@@ -38,6 +47,29 @@ Welcome to your new app.
 
     private bool Authenticated { get; set; }
     private bool Loading { get; set; }
+    private List<string>? recentAuthentications { get; set; }
+
+    private async Task GetListFromAPI()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get, $"http://localhost:5177/Home/GetRecentAuthentications");
+        request.Headers.Add("Accept", "application/json");
+        request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
+        var client = ClientFactory.CreateClient();
+        var response = await client.SendAsync(request);
+        var content = await response.Content.ReadAsStringAsync();
+
+        if (response.IsSuccessStatusCode)
+        {
+            recentAuthentications = JsonSerializer.Deserialize<List<string>>(content);
+        }
+
+        Console.WriteLine(content);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetListFromAPI();
+    }
 
     private async Task FormSubmitted(EditContext editContext)
     {
@@ -62,10 +94,40 @@ Welcome to your new app.
             var response = await client.SendAsync(request);
 
             Authenticated = response.IsSuccessStatusCode;
+            StateHasChanged();
         }
         catch(Exception e)
         {
             Console.WriteLine(e.ToString());
+        }
+    }
+
+    public abstract class PagedResultBase
+    {
+        public int CurrentPage { get; set; }
+        public int PageCount { get; set; }
+        public int PageSize { get; set; }
+        public int RowCount { get; set; }
+
+        public int FirstRowOnPage
+        {
+
+            get { return (CurrentPage - 1) * PageSize + 1; }
+        }
+
+        public int LastRowOnPage
+        {
+            get { return Math.Min(CurrentPage * PageSize, RowCount); }
+        }
+    }
+
+    public class PagedResult<T> : PagedResultBase where T : class
+    {
+        public IList<T> Results { get; set; }
+
+        public PagedResult()
+        {
+            Results = new List<T>();
         }
     }
 }
